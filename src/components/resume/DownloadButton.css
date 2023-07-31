@@ -1,0 +1,70 @@
+.download{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn{
+
+    border: 3px solid white;
+    color: rgb(10, 9, 9);
+    font-weight: bolder;
+    position: absolute;
+    bottom: 300px;
+    left: 1300px;
+    z-index: 2;
+    border-radius: 7px;
+}
+
+.btn2{
+
+    border: 3px solid white;
+    color: rgb(10, 9, 9);
+    position: absolute;
+    bottom: 300px;
+    left: 1420px;
+    z-index: 2;
+    border-radius: 7px;
+    font-weight: bolder;
+}
+
+.btn:hover{
+    position: absolute;
+    left:1310px;
+    bottom:306px;
+    padding: 10px 6px 10px 10px;
+    color: white;
+    border: 3px solid rgb(10, 9, 9); ;
+}
+.btn2:hover{
+    position: absolute;
+    left:1425px;
+    bottom:306px;
+    padding: 10px 6px 10px 10px;
+    color: white;
+    border: 3px solid rgb(10, 9, 9); ;
+}
+@media screen and (max-width:480px){
+    .btn{
+
+    position: absolute;
+    font-weight: bolder;
+    bottom: 180px;
+    left: 182px;
+    padding:  6px 6px;
+    }
+    .btn2{
+
+        position: absolute;
+        font-weight: bolder;
+        bottom: 180px;
+        left: 260px;
+        padding: 6px 6px;
+
+        }
+        .btn:hover{
+
+            color: white;
+            border: 3px solid rgb(10, 9, 9); ;
+        }
+}
